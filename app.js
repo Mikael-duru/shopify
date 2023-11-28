@@ -1,4 +1,5 @@
-const searchContainer = document.querySelector("#search_container");
+function app(){
+  const searchContainer = document.querySelector("#search_container");
 const searchInput = document.querySelector("#searchInput");
 const notificationBtn = document.querySelector("#notification_btn");
 const notificationDropdown = document.querySelector("#notification_dropdown");
@@ -103,3 +104,6 @@ btns.forEach((btn) => {
 function getCompletedStages() {
   return document.querySelectorAll("[data-completed=true]").length;
 }
+}
+
+app()
