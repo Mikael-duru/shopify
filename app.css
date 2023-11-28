@@ -289,7 +289,7 @@ img {
 
 /* myStore btn styles */
 .header__navbar--btn_active {
-  padding: 2px 2px 2px 8px;
+  padding: 2px;
   font-weight: 500;
   color: var(--font-light);
 }
@@ -311,6 +311,10 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+  .header__navbar--btn_active {
+    padding: 2px 2px 2px 8px;
+  }
+
   .header__navbar--username {
     display: initial;
     color: var(--font-light);
